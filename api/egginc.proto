@@ -21,9 +21,9 @@ message FirstContact {
       int32 notifications = 6;
       int32 low_performance = 10;
       int32 advertising = 14;
-      int32 developer_analytics_1 = 22; // Both toggle together
+      int32 developer_analytics_1 = 22;  // Both toggle together
       int32 developer_analytics_2 = 23;
-      double backup_date = 24;          // epoch timestamp
+      double backup_timestamp = 24;  // epoch timestamp
     }
     Settings settings = 4;
 
